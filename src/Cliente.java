@@ -1,9 +1,9 @@
 public class Cliente {
 
     private String nome;
-    private long CPF;
+    private String CPF;
 
-    public Cliente(String nome, long CPF) {
+    public Cliente(String nome, String CPF) {
 
         this.setNome(nome);
         this.setCPF(CPF);
@@ -18,11 +18,11 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public long getCPF() {
+    public String getCPF() {
         return CPF;
     }
 
-    public void setCPF(long CPF) {
+    public void setCPF(String CPF) {
         this.CPF = CPF;
     }
 
